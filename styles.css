@@ -147,10 +147,14 @@ article h3 {
     height: 70%;
     overflow: hidden;
 }
+.image-nosotros img{
+    width: 100%;
+}
 .content-nosotros {
     width: 100%;
     padding: 10px;
     text-align: center;
+    height: 140px;
     
 }
 .content-nosotros h3 {
