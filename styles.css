@@ -1,0 +1,182 @@
+/* Reseteo de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #dcedf4;
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.banner {
+    position: relative;
+    height: 500px;
+    background: #dcedf4;
+    /* background: url('img_abogado.png') no-repeat center center/cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* text-align: center; */
+}
+
+.banner-content {
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 70px 140px 70px 70px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    margin-bottom: 10px;
+}
+.banner button {
+    margin-top: 15px;
+    background-color: #db4949;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner p {
+    font-size: 1.2em;
+}
+
+.content-section {
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+.content-section h4{ 
+    text-align: center;
+}
+.content-section p, .content-section ul {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin-bottom: 10px;
+}
+.container-nosotros {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.square-nosotros {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.image-nosotros {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.content-nosotros {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    
+}
+.content-nosotros h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.content-nosotros p {
+    font-size: 0.9em;
+    color: #666;
+}
+.icon-nosotros {
+    width: 50px;
+    height: 50px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.icon-nosotros i {
+    font-size: 24px;
+}
