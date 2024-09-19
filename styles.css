@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lustria', serif;
 }
 
 header {
@@ -176,6 +176,11 @@ article h3 {
     position: relative;
     overflow: hidden;
 }
+.content-footer{
+padding: 15px;
+background: black;
+color: white;
+}
 .content-contact {
     position: relative;
     height: 500px;
@@ -244,3 +249,102 @@ article h3 {
 .icon-nosotros i {
     font-size: 24px;
 }
+/* Estilos generales para pantallas pequeñas */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .banner {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .banner-content {
+        padding: 20px;
+    }
+
+    .content-section, .content-section-grey {
+        padding: 10px;
+        margin: 10px 5px;
+    }
+
+    .container-nosotros, .container-equipo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .square-nosotros, .square-equipo {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .image-nosotros, .image-equipo {
+        height: 60%;
+    }
+
+    form {
+        padding: 0 20px;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .content-contact {
+        height: auto;
+        padding: 20px;
+    }
+
+    .content-contact img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Estilos para pantallas aún más pequeñas */
+@media (max-width: 480px) {
+    .banner-content {
+        padding: 10px;
+    }
+
+    .banner h1 {
+        font-size: 1.5em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .content-nosotros h3, .content-equipo h3 {
+        font-size: 1.2em;
+    }
+
+    .content-nosotros p, .content-equipo p {
+        font-size: 0.8em;
+    }
+
+    form input, form textarea {
+        padding: 8px;
+    }
+
+    form button {
+        padding: 8px;
+    }
+}
+
